@@ -89,7 +89,6 @@ ZSH_AUTOSUGGEST_MANUAL_REBIND=1
 
 # Set what highlighters will be used.
 # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters.md
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 
 # Customize the main highlighter styles.
 # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters/main.md#how-to-tweak-it
@@ -188,9 +187,9 @@ export MOAR="-colors 16M -no-linenumbers -quit-if-one-screen -shift 8"
 
 alias e="${(z)VISUAL:-${(z)EDITOR}}"
 	
-alias bat="bat -f"
-alias less="bat -fpS"
-alias more="bat -fpS"
+alias bat="bat -fS"
+alias less="bat -fp"
+alias more="bat -fp"
 alias cat="bat -pp --wrap=auto"
 
 alias cls="clear"
