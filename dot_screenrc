@@ -1,0 +1,16 @@
+startup_message off # disable annoying startup message
+utf8                # enables utf8
+truecolor on        # enables truecolor
+vbell off           # use audible bell
+altscreen on        # fixes vi clearscreen
+termcapinfo xterm*|rxvt*|kterm*|Eterm* ti@:te@ # allow xterm to use scrollback buf
+layout save default # persist window layout over detach/reattach
+autodetach on       # never turn this off
+mousetrack on       # switch windows with mouse
+
+bind I login on
+bind O login off
+bind \
+
+defscrollback 1000
+
